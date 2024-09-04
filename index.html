@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <form class="dataForm">
+        <label for="coins">Amount: </label>
+        <input type="text" name="amount">
+        <select name="exchangeCurrency">
+            <option value="dollar">Dollar</option>
+            <option value="dinar">Dinar</option>
+            <option value="nis">Nis</option>
+        </select>
+
+            <p class="convertedAmount"></p>
+
+        <input type="submit" value="convert">
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
